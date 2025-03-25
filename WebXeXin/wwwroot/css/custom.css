@@ -1,0 +1,189 @@
+﻿html, body {
+    overflow-x: hidden; /* Loại bỏ thanh cuộn ngang */
+}
+
+.jumbotron {
+    padding: 0; /* Loại bỏ padding để ảnh phủ đầy */
+    margin: 0; /* Đảm bảo không có khoảng trống xung quanh */
+    overflow: hidden; /* Đảm bảo không có phần tử nào tràn ra ngoài */
+    position: relative; /* Đảm bảo vị trí tương đối */
+    width: 100vw; /* Đảm bảo chiều rộng toàn màn hình */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translateX(-50%); /* Căn giữa theo chiều ngang */
+}
+
+.jumbotron .carousel-item img {
+    width: 100vw; /* Đảm bảo ảnh phủ đầy chiều rộng màn hình */
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh phủ đầy khung mà không bị méo */
+    object-position: center; /* Đảm bảo ảnh được căn giữa */
+    max-height: 100vh; /* Đảm bảo ảnh không vượt quá chiều cao của viewport */
+}
+
+.jumbotron .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.jumbotron .btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.footer {
+    background-color: #808080; 
+    padding: 1rem 0;
+    text-align: center;
+    color: white; /* Đặt chữ trắng */
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #f8f9fa;
+}
+
+/* Custom styles for car menu items */
+.car-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.car-item img.menu-image {
+    width: 70px; /* Adjust the size as needed */
+    height: auto;
+    margin-left: 100px;
+}
+
+.car-item .arrow {
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.carousel-item img {
+    width: 100vw; /* Đảm bảo ảnh phủ đầy chiều rộng màn hình */
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh phủ đầy khung mà không bị méo */
+    object-position: center; /* Đảm bảo ảnh được căn giữa */
+    max-height: 100vh; /* Đảm bảo ảnh không vượt quá chiều cao của viewport */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    transform: scale(1.1); /* Nổi lên */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent; /* Đảm bảo biểu tượng không bị ảnh hưởng */
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: red; /* Thay đổi màu biểu tượng mũi tên thành màu đỏ */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #808080;
+    border-color: #808080;
+}
+
+.btn-primary:hover {
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    }
+
+.hero-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .hero-text h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+    }
+
+    .hero-text .btn-primary {
+        background-color: #000;
+        border-color: #000;
+        padding: 10px 20px;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+        .hero-text .btn-primary:hover {
+            background-color: #555;
+            border-color: #555;
+        }

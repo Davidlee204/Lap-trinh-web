@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\WebXeXin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|c:\\c#\\webxexin\\webxexin\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B409F0ED-1023-4B62-84CD-107D92415D96}|WebXeXin\\WebXeXin.csproj|solutionrelative:webxexin\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebXeXin\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebXeXin\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T03:48:49.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "WebXeXin\\wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "WebXeXin\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-23T14:59:03.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebXeXin\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebXeXin\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:32:32.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebXeXin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebXeXin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:30:50.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebXeXin\\Models\\Category.cs",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Models\\Category.cs",
+              "RelativeToolTip": "WebXeXin\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:27:25.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebXeXin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebXeXin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T00:51:15.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebXeXin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebXeXin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:55:22.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\WebXeXin\\WebXeXin\\Program.cs",
+              "RelativeDocumentMoniker": "WebXeXin\\Program.cs",
+              "ToolTip": "C:\\C#\\WebXeXin\\WebXeXin\\Program.cs",
+              "RelativeToolTip": "WebXeXin\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:35:22.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

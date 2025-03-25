@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - THẾ GIỚI XE</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebXeXin.styles.css" asp-append-version="true" />
+</head>
+<body >
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Xế Xịn.jpg" alt="XẾ XỊN" style="height: 50px;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                        </li>
+						
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle" href="#" id="carBrandsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Các hãng xe
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="carBrandsDropdown">
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Porsche</span>
+                                        <img src="~/images/porsche-logo.jpg" alt="Porsche" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Phiên bản 718 Cayman</a></li>
+                                        <li><a class="dropdown-item" href="#">Phiên bản 718 Boxster</a></li>
+                                        <li><a class="dropdown-item" href="#">Phiên bản 718 Style Edition</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Mercedes</span>
+                                        <img src="~/images/logo-mercedes.jpg" alt="Mercedes" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Phiên bản 911 Carrera</a></li>
+                                        <li><a class="dropdown-item" href="#">Phiên bản 911 Targa</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Land Rover</span>
+                                        <img src="~/images/range rover_logo.png" alt="Range Rover" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Audi</span>
+                                        <img src="~/images/panamera.png" alt="Panamera" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Lexus</span>
+                                        <img src="~/images/macan.png" alt="Macan" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Volvo</span>
+                                        <img src="~/images/cayenne.png" alt="Cayenne" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item car-item" href="#">
+                                        <span>Rolls-Royce</span>
+                                        <img src="~/images/cayenne.png" alt="Rolls-Royce" class="menu-image" />
+                                        <span class="arrow">&gt;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Service" asp-action="Index">Dịch Vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="StoreCenter" asp-action="Index">Trung Tâm Cửa Hàng</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            @* <div class="row">
+                <div class="col-md-4">
+                    <h5>Liên Hệ</h5>
+                    <p>
+                        <strong>Địa chỉ:</strong> 123 Đường Chính, Thành phố, Quốc gia<br />
+                        <strong>Điện thoại:</strong> (123) 456-7890<br />
+                        <strong>Email:</strong> <a href="mailto:info@webxexin.com">info@webxexin.com</a>
+                    </p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5>Theo Dõi Chúng Tôi</h5>
+                    <p>
+                        <a href="https://facebook.com" target="_blank">Facebook</a><br />
+                        <a href="https://twitter.com" target="_blank">Twitter</a><br />
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                    </p>
+                </div>
+            </div> *@
+            <div class="text-center mt-3">
+                &copy; 2025 - WebXeXin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model WebXeXin.Models.Category
+@{
+    ViewData["Title"] = "Cập Nhật Danh Mục";
+}
+<h2>Cập Nhật Danh Mục</h2>
+<form asp-action="Update" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Cập Nhật</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
